@@ -12,3 +12,4 @@ else:
     while start <= end:
         print(start, end=' ') #<---- this one keeps getting new line errors when outputting
         start += 5
+    print() # Print here stops newline error
